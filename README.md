@@ -10,8 +10,8 @@
 
 ## Sneak Peak
 
-![](./public/img/todo_first.png)
-![](./public/img/todo_hover.png)
+![](./todo_first.png)
+![](./todo_hover.png)
 
 ---
 
