@@ -4,7 +4,7 @@
 
 [Initial BeCode Project](https://github.com/becodeorg/LIE-Jepsen-6/tree/master/02-the-hill/07-intro-to-react)
 
-[The Todo App on Netlify]()
+[The Todo App on Netlify](https://beautiful-taffy-53500b.netlify.app)
 
 ---
 
