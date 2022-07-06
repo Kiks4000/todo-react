@@ -15,14 +15,12 @@ function App() {
   const [todos, setTodos] = useState([]);
   const todoNameRef = useRef();
 
-// use the useEffect hook to load todos from localStorage and set them to the state
   useEffect(() => {
     const storedTodos = JSON.parse(localStorage.getItem(LOCAL_STORAGE_KEY));
     if (storedTodos) setTodos(storedTodos);
   }
   , []);
 
-  // use the useEffect hook to save todos to localStorage
   useEffect(() => {
     localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(todos));
   }
